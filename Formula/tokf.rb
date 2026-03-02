@@ -7,18 +7,18 @@ class Tokf < Formula
   on_macos do
     on_arm do
       url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.13/tokf-v0.2.13-aarch64-apple-darwin.tar.gz"
-      sha256 "e19c05f4b6507894e64b76b58fed768e2e1c95406392b036ad439c75029a7b46"
+      sha256 "86ac459f45993e113d9891c038188d40288bb4074c4e7fe2fa3c0cf39f2b76b8"
     end
     on_intel do
       url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.13/tokf-v0.2.13-x86_64-apple-darwin.tar.gz"
-      sha256 "bebb270ce95cd3b177fa3422f201d5d757790cdd5383b29c5a8454173ba467e9"
+      sha256 "f1a93da3272c93bbbe4cdda6f2f54e7d2e68f588e8ea3bb14ddd892012eb9a32"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mpecan/tokf/releases/download/tokf-v0.2.13/tokf-v0.2.13-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "944ed0c9b0f3c19ca939ac07efc248b8478a643f44a8dce4ade2ba1ce0d15d2f"
+      sha256 "0f5ccfeaab89ad941152229002bbbb369967d5933ed06b1dd1f998dc54492bb8"
     end
   end
 
